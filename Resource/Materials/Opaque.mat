@@ -9,13 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Opaque
   m_Shader: {fileID: 4800000, guid: 8637e5d09b9936643a2881bef14ce012, type: 3}
-  m_ValidKeywords:
-  - _CLIPPING
-  m_InvalidKeywords: []
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - __PREMULTIPLY_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -64,18 +64,19 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _Clipping: 1
+    - _Clipping: 0
     - _Cutoff: 0
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0.31
+    - _Metallic: 0.473
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Smoothness: 0.49
+    - _PremulAlpha: 0
+    - _Smoothness: 0.408
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

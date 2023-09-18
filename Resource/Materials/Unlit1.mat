@@ -9,14 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Unlit1
   m_Shader: {fileID: 4800000, guid: d1b0ccd4dd5e7644a8c5fecdd552ba74, type: 3}
-  m_ValidKeywords:
-  - _CLIPPING
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -69,8 +68,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _Clipping: 1
-    - _Cutoff: 0.384
+    - _Clipping: 0
+    - _Cutoff: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
